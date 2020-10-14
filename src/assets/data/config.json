@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "Name Web",
+  "device": {
+    "uuid_default": "",
+    "name_default": "Web"
+  },
+  "http": {
+    "debug": true,
+    "api_server": "api_test",
+    "api_primary": {
+      "host": "http://118.27.192.106:3400/"
+    },
+    "api_test": {
+      "host": "http://192.168.1.101:1598/"
+    },
+    "api_local": {
+      "host": "http://localhost:3002/"
+    }
+  }
+}
