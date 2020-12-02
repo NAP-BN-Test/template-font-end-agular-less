@@ -1,7 +1,7 @@
 export const LOCAL_STORAGE_KEY = {
   USER_INFO: 'user-info',
   USER_LOGIN: 'user-login',
-  TOKEN: 'token-hnc',
+  TOKEN: 'token',
   REPORT_TIME_SELECT_TIME_PICKER: 'report_time_select_time_picker',
 };
 

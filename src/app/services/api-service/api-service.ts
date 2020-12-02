@@ -8,7 +8,7 @@ export class ApiService extends HttpClient {
   // mUrl: string = 'http://118.27.192.106:3400/';
 
   headers = new Headers({
-    Authorization: localStorage.getItem('token-hnc'),
+    Authorization: localStorage.getItem('token'),
     'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', // thêm phần này vào header thì mới gửi body cho backend được
   });
 
